@@ -24,7 +24,7 @@ https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=39138
   5.  retroarch.cfg
 8. Go to the [WiringPi Github repo](https://github.com/WiringPi/WiringPi) and clone a zip file of the project to your desktop. Unzip all files to a folder called *'wiringpi'*
 9. Copy the 'wiringpi' folder to boot/gba_mod/ on the SD card.  
-10.	Edit boot/config.txt with a editor that follows the linefeeds in a linux sysem (i.e notepad++) and include the following at the end of the file then save and close the file:
+10.	Edit boot/config.txt with a editor that follows the linefeeds in a linux system (i.e notepad++) and include the following at the end of the file then save and close the file:
 > hdmi_force_hotplug=1  
 > hdmi_group=2  
 > hdmi_mode=87  
@@ -34,7 +34,7 @@ https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=39138
 11.	That’s it. Eject the SD card and put it into your modded GBA-Rasp Pi.  
 
 ### 2. First power up
-1.	If you power on the GBA at this point, the TFT should turn black but you won’t be able to see anything just yet. **Turn the GBA back off**
+1.	If you power on the GBA at this point, the TFT should turn on but you won’t be able to see anything just yet. **Turn the GBA back off**
 2.	Plug your modified Gameboy link cable in the link port on the modded GBA and the USB end into your PC. If you’re running Windows, the FTDI chip should be detected and automatically installed. If not, you can install the Virtual Com Port (VCP) drivers here: http://www.ftdichip.com/Drivers/VCP.htm. The chip should still be detected even if the GBA is off as this chip is powered from the USB bus.
 3.	After it has installed confirm that a COM port appears in your Device Manager
 4.	Download and install [FT_PROG](http://www.ftdichip.com/Support/Utilities.htm#FT_PROG)
@@ -50,7 +50,7 @@ https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=39138
 8.	Select **Serial** connection type. Type in your COM Port number and Speed of 115200. Hit Open.
 9.	Now power on your GBA using the power switch. You should be presented with a message *’Uncompressing Linux… done, booting the kernel.’*. Wait for the login prompt to appear. This can take about a 1 minute or more.
 10.	Default login is *pi* and password is *raspberry*.
-11.	After firt login, a First boot script will run, and reboot the system once again.
+11.	After first login, a First boot script will run, and reboot the system once again.
 12.	Now you can issue commands to the Raspberry Pi Zero over the command line!
 
 ### 3. Configuration of System.
@@ -95,7 +95,7 @@ https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=39138
 8.	(Optional) In EmulationStation goto the ‘RetroPie’ menu item and explore all the options available to tweak how you like it.
 
 ### 4. Get ROMS onto it
-1.	The easiest way to do this is to  get a microUSB to USB adapter and connect a wifi dongle to the Raspberry Pi USB port. To setup wifi, do the following in the serial console:
+1.	The easiest way to do this is to get a microUSB to USB adapter and connect a wifi dongle to the Raspberry Pi USB port. To setup wifi, do the following in the serial console:
 > sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
    Add the following and replace with your wifi info:
