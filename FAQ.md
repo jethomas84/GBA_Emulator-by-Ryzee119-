@@ -16,7 +16,7 @@ A: Great to see you having a play with it. However, I must apologise as I did no
 
 **Q: What software does the Raspberry Pi Run?**
 
-A: https://retropie.org.uk/ - A system specifically design for emulators.
+A: https://retropie.org.uk/ - A system specifically designed for emulators.
 
 **Q: How long is take to boot up?**
 
@@ -32,7 +32,7 @@ A: A very nominal power consumption is 330mA. The batteries I recommend are good
 
 **Q: How does the TFT screen perform over SPI?**
 
-A: I am using Notro’s FBTFT framebuffer driver. https://github.com/notro/fbtft/wiki/Framebuffer-use. Quote: “Snapshotting takes ~10ms and with a 25ms delay it gives roughly 1000/(10+25) = 28fps CPU usage: ~2%”
+A: I am using Notro’s FBTFT framebuffer driver. https://github.com/notro/fbtft/wiki/Framebuffer-use. Quote: *“Snapshotting takes ~10ms and with a 25ms delay it gives roughly 1000/(10+25) = 28fps CPU usage: ~2%”*
 
 **Q: Why didn’t you…. <insert feature here>?**
 
