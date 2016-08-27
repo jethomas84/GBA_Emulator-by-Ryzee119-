@@ -20,7 +20,7 @@ d.  es_input.cfg
 e.  retroarch.cfg  
 f.  wiringpi *(folder)*  
 
-8.	Edit boot/config.txt and include the following at the end of the file then save and close the file:
+8.	Edit boot/config.txt with a editor that follows the linefeeds in a linux sysem (i.e notepad++) and include the following at the end of the file then save and close the file:
 > hdmi_force_hotplug=1  
 > hdmi_group=2  
 > hdmi_mode=87  
