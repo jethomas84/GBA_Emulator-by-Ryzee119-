@@ -77,6 +77,7 @@ Add the following to the end of the file but **before** exit 0.
 > gpio_alt -p 18 -f 5
 
 4.	Setup virtual keyboard by the following:
+
 > sudo nano /etc/udev/rules.d/10-gbaemu.rules
 
 and add the following to this file:
