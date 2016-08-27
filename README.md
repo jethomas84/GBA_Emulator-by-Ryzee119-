@@ -34,6 +34,7 @@ I take no responsibility for the following:
 4.	A component was missing from the BOM. (I did check it. But it’s your responsibility to check it again against the schematic)
 5.	The thing burst into flame and explodes in your hands and burns your house down.
 6.	It doesn’t fit in your GBA case. (It was designed to one I had lying around. I don’t know if Nintendo did subtle changes in their cases over the years)
+7.	Hours of lost productivity because you're slaying bosses and saving princesses.
 Any advice and support I provide from this point is purely out of the kindness of my heart.
 
 ## ISSUES OBSERVED WITH THE BOARD:
