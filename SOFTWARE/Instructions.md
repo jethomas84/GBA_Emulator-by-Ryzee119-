@@ -83,11 +83,11 @@ Add the following to the end of the file but **before** exit 0.
 
 4.	Setup virtual keyboard by the following:
 
-> sudo nano /etc/udev/rules.d/10-gbaemu.rules
+> sudo nano /etc/udev/rules.d/10-retrogame.rules
 
 and add the following to this file:
 
-> SUBSYSTEM=="input", ATTRS{name}=="gbaemu", ENV{ID_INPUT_KEYBOARD}="1"
+> SUBSYSTEM=="input", ATTRS{name}=="retrogame", ENV{ID_INPUT_KEYBOARD}="1"
 
 5.	Increase the font size in EmulationStation for readability by the following:
 
