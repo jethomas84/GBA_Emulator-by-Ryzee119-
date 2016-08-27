@@ -97,10 +97,10 @@ Then scroll down to the ‘gamelist’ section and change any occurance of fontS
 
 Add the following and replace with your wifi info:
 
->network={
->	ssid=”YOURWIFINAME”
-> 	psk=”YOURPASSWORD”
->}
+>network={  
+>	ssid=”YOURWIFINAME”  
+> 	psk=”YOURPASSWORD”  
+>}  
 
 2.	Reboot device and confirm that it connects to the wifi network. Check your IP by issuing the following into the serial console:
 
