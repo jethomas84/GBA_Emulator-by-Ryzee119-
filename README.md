@@ -12,7 +12,7 @@ I am releasing these design files in good faith that people will use them to lea
 I don’t want to see people taking this design and knocking it off for a quick buck.
 If you don’t want to deal with all this work another redditor /u/Flav0r has designed something quite similar to this. http://gamepieadvance.com/ I understand he may be working on DIY Kits.
 
-## OBVIOUS GOES WITHOUT SAYING DISCLAIMER:
+##DISCLAIMER:
 This project is NOT for the fresh beginner or the faint of heart. It requires moderate/high level soldering skills. There are many small and fine pitch components that need to be soldered. I recommend you don’t attempt this unless you have experience in soldering, a basic ability to troubleshoot electronic circuits if things aren’t working and an ability to make mods on the fly to suit your needs. i.e cutting plastic where required.
 This also requires taking apart an original GBA to repurpose the case, buttons and de-soldering of several components on the GBA motherboard. This can very tricky without the right equipment.
 As a minimum the following tools are recommended (All parts should be of good quality from reputable suppliers!):
