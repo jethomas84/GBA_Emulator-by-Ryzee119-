@@ -73,7 +73,6 @@ https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=39138
   4. Exit raspi-config. There's no need to reboot just yet.
 
 4.	To set the programs to begin at startup edit /etc/rc.local
-
 > sudo nano /etc/rc.local
 
 5. Add the following to the end of the file but **before** exit 0.
@@ -82,15 +81,12 @@ https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=39138
 > gpio_alt -p 18 -f 5
 
 6.	Setup virtual keyboard by the following:
-
 > sudo nano /etc/udev/rules.d/10-retrogame.rules
 
    and add the following to this file:
-
 > SUBSYSTEM=="input", ATTRS{name}=="retrogame", ENV{ID_INPUT_KEYBOARD}="1"
 
    Increase the font size in EmulationStation for readability by the following:
-
 > sudo nano /etc/emulationstation/themes/carbon/carbon.xml
 
    Then scroll down to the ‘gamelist’ section and change any occurance of fontSize to 0.05.
@@ -100,29 +96,24 @@ https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=39138
 
 ### 4. Get ROMS onto it
 1.	The easiest way to do this is to  get a microUSB to USB adapter and connect a wifi dongle to the Raspberry Pi USB port. To setup wifi, do the following in the serial console:
-
 > sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
    Add the following and replace with your wifi info:
-
 >network={  
 >	ssid=”YOURWIFINAME”  
 > 	psk=”YOURPASSWORD”  
 >}  
 
 2.	Reboot device and confirm that it connects to the wifi network. Check your IP by issuing the following into the serial console:
-
 > ifconfig
 
 3.	Located your IP under wlan0 and note this number.
 4.	Download [WinSCP](https://winscp.net/eng/download.php). Setup a SFTP session using your IP address, Port 22 and username *pi* and password *raspberry*.
 5.	Copy ROMS to their respective folders in **/home/pi/RetroPie/roms/**
-
 6. Alternatively, if you're able to read the linux partition on your PC, your could remove the SD card and place it in your computer and copy them over directly.
 
 ### 5. Make console better (Optional)
 1. This step makes the text on the console a bit easier to read on the small screen. In the serial console perform the following:
-
 > sudo dpkg-reconfigure console-setup
 
    Select “UTF-8”, “Guess optimal character set”, “Terminus” and “6x12 (framebuffer only).”
