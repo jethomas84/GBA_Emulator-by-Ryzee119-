@@ -68,6 +68,7 @@ b. Force 3.5mm audio (headphone)
 c. Enable SPI  
 
 3.	To set the programs to begin at startup edit /etc/rc.local
+
 > sudo nano /etc/rc.local
 
 Add the following to the end of the file but **before** exit 0.
