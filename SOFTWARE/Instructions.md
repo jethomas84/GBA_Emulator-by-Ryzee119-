@@ -3,8 +3,11 @@ Draft copy! Still working on this
 ## Software Setup
 This following describes the software installation steps for my GBA mod.
 The following sources were used:
-https://learn.adafruit.com/running-opengl-based-games-and-emulators-on-adafruit-pitft-displays/pitft-setup
+https://github.com/adafruit/Adafruit-Retrogame
 https://github.com/notro/fbtft/wiki/
+https://github.com/WiringPi/WiringPi
+https://www.raspberrypi.org/forums/viewtopic.php?f=44&t=39138
+
 ### 1. OS Installation
 1.	Download RetroPie from https://retropie.org.uk/
 2.	The version I used v3.8.1
@@ -18,7 +21,8 @@ b.  gpio_alt
 c.  fbcp  
 d.  es_input.cfg  
 e.  retroarch.cfg  
-f.  wiringpi *(folder)*  
+8. Go to the [WiringPi Github repo](https://github.com/WiringPi/WiringPi) and clone a zip file of the project to your desktop. Unzip all files to a folder called *'wiringpi'*
+9. Copy the 'wiringpi' folder to boot/gba_mod/ on the SD card.
 
 8.	Edit boot/config.txt with a editor that follows the linefeeds in a linux sysem (i.e notepad++) and include the following at the end of the file then save and close the file:
 > hdmi_force_hotplug=1  
