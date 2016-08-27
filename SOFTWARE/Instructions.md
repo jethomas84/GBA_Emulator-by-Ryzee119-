@@ -63,7 +63,7 @@ f.	Close FT_Prog, Remove and reinsert the GBA link cable from the USB port. Conf
 
 Set the following options:  
 a. Disable overscan  
-b. Force 3.5mm audio (headphone)
+b. Force 3.5mm audio (headphone)  
 c. Enable SPI  
 
 2.	To set the programs to begin at startup edit /etc/rc.local
