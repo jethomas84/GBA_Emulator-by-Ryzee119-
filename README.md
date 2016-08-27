@@ -39,6 +39,6 @@ Again, this is a first prototype. I have observed the following issues:
 
 1. Slight Buzzing from the speaker. More noticeable when volume is high and no sound is being played. I’ve added some extra decoupling caps to the area but this may or may not do a thing.
 
-2.DC boost converter struggles at low input voltages. Although I tried to design it for this; if you use Alkaline batteries you will probably be disappointed. Once the input voltage drops below ~2.5V expect the random reboot at high loads. I recommend good quality Lithium AA batteries. Because of lithium discharge curves, the low battery indictor circuit is not particularly useful.
+2. DC boost converter struggles at low input voltages. Although I tried to design it for this; if you use Alkaline batteries you will probably be disappointed. Once the input voltage drops below ~2.5V expect the random reboot at high loads. I recommend good quality Lithium AA batteries. Because of lithium discharge curves, the low battery indictor circuit is not particularly useful.
 Probably more. Again this has not been extensively tested.
 
