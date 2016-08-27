@@ -58,6 +58,14 @@ f.	Close FT_Prog, Remove and reinsert the GBA link cable from the USB port. Conf
 > cd /boot/gba_mod/wiringpi  
 > sudo ./build  
 
+2. Enter the Rasp Pi config screen:
+>sudo raspi-config
+
+Set the following options:  
+a. Disable overscan  
+b. Force 3.5mm audio (headphone)
+c. Enable SPI  
+
 2.	To set the programs to begin at startup edit /etc/rc.local
 > sudo nano /etc/rc.local
 
