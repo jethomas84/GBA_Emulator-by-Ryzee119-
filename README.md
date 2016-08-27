@@ -3,10 +3,12 @@
 This was designed by /u/Ryzee
 Originally posted on Reddit here:
 https://www.reddit.com/r/DIY/comments/4zbqwr/this_is_my_attempt_at_making_a_portable_emulator/
+
 Build Photos:
 http://imgur.com/a/kjFmS
 
 I am releasing these design files in good faith that people will use them to learn something about electronics and maybe bring an old Gameboy Advance (GBA) back to life.
+
 I don’t want to see people taking this design and knocking it off for a quick buck.
 If you don’t want to deal with all this work another redditor /u/Flav0r has designed something quite similar to this. http://gamepieadvance.com/ I understand he may be working on DIY Kits.
 
