@@ -54,8 +54,8 @@ f.	Close FT_Prog, Remove and reinsert the GBA link cable from the USB port. Conf
 > sudo cp /boot/gba_mod/retrogame /usr/local/bin/retrogame  
 > sudo cp /boot/gba_mod/gpio_alt /usr/local/bin/gpio_alt  
 > sudo cp /boot/gba_mod/fbcp /usr/local/bin/fbcp  
-> sudo cp /boot/gba_mod/es_input.cfg /opt/retropie/configs/all/retroarch.cfg  
-> sudo cp /boot/gba_mod/retroarch.cfg /opt/retropie/configs/all/emulationstation/es_input.cfg  
+> sudo cp /boot/gba_mod/retroarch.cfg /opt/retropie/configs/all/retroarch.cfg  
+> sudo cp /boot/gba_mod/es_input.cfg /opt/retropie/configs/all/emulationstation/es_input.cfg  
 > cd /boot/gba_mod/wiringpi  
 > sudo ./build  
 
