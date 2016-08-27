@@ -113,8 +113,15 @@ Add the following and replace with your wifi info:
 4.	Download [WinSCP](https://winscp.net/eng/download.php). Setup a SFTP session using your IP address, Port 22 and username *pi* and password *raspberry*.
 5.	Copy ROMS to their respective folders in **/home/pi/RetroPie/roms/**
 
+6. Alternatively, if you're able to read the linux partition on your PC, your could remove the SD card and place it in your computer and copy them over directly.
+
+### Make console better (Optional)
+1. This step makes the text on the console a bit easier to read on the small screen. In the serial console perform the following:
+
+> sudo dpkg-reconfigure console-setup
+
+Select “UTF-8”, “Guess optimal character set”, “Terminus” and “6x12 (framebuffer only).”
 
 
 
-![GitHub Logo](/images/logo.png)
 
