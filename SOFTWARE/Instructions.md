@@ -24,14 +24,14 @@ e.  retroarch.cfg
 8. Go to the [WiringPi Github repo](https://github.com/WiringPi/WiringPi) and clone a zip file of the project to your desktop. Unzip all files to a folder called *'wiringpi'*
 9. Copy the 'wiringpi' folder to boot/gba_mod/ on the SD card.
 
-8.	Edit boot/config.txt with a editor that follows the linefeeds in a linux sysem (i.e notepad++) and include the following at the end of the file then save and close the file:
+10.	Edit boot/config.txt with a editor that follows the linefeeds in a linux sysem (i.e notepad++) and include the following at the end of the file then save and close the file:
 > hdmi_force_hotplug=1  
 > hdmi_group=2  
 > hdmi_mode=87  
 > hdmi_cvt=320 240 60 1 0 0 0  
 > dtoverlay=gbaemu-overlay
 
-9.	That’s it. Eject the SD card and put it into your modded GBA-Rasp Pi.  
+11.	That’s it. Eject the SD card and put it into your modded GBA-Rasp Pi.  
 
 ### 2. First power up
 1.	If you power on the GBA at this point, the TFT should turn white but you won’t be able to see anything just yet. **Turn it back off**
@@ -70,6 +70,7 @@ Set the following options:
 a. Disable overscan  
 b. Force 3.5mm audio (headphone)  
 c. Enable SPI  
+Exit raspi-config. There's no need to reboot just yet.
 
 3.	To set the programs to begin at startup edit /etc/rc.local
 
