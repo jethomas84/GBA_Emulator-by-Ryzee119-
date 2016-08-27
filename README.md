@@ -41,5 +41,7 @@ Again, this is a first prototype. I have observed the following issues:
 
 2. DC boost converter struggles at low input voltages. Although I tried to design it for this; if you use Alkaline batteries you will probably be disappointed. Once the input voltage drops below ~2.5V expect the random reboot at high loads. I recommend good quality Lithium AA batteries. Because of lithium discharge curves, the low battery indictor circuit is not particularly useful.
 
-3. Probably more. Again this has not been extensively tested.
+3. The closest screen I could find to the original is a 3.2" TFT. It is slightly bigger than the viewing window. The left and bottom edges of the screen are cut off slightly. Borders can be setup in RetroArch so the games don't have this issue, however it is visible in the game selection screens.
+
+4. Probably more. This has not been extensively tested.
 
