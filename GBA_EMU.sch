@@ -16758,7 +16758,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C9" library="rcl" deviceset="CPOL-EU" device="153CLV-0405" value="47uF"/>
 <part name="L4" library="rcl" deviceset="L-EU" device="WE-TPC" value="4.7uH"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805" value="976k"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="309k"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0805" value="430k"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C10" library="rcl" deviceset="CPOL-EU" device="153CLV-0405" value="47uF"/>
