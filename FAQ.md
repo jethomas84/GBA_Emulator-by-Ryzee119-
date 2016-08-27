@@ -1,6 +1,6 @@
 ## FAQ and anticipated FAQ
 
-FAQ and anticipated FAQ
+
 **Q: How’d you learn all this:**
 A: I’m an Electrical Engineer and its my career, but I do PCB design as a hobby only. I don’t do board level design at work!
 If you want to get into electronics this is NOT the only pathway, but it’s difficult for me to provide advice for your personal case. Mine is a long hard road and certainly not the best/most efficient way for you.
@@ -14,7 +14,7 @@ A: Great to see you having a play with it. However, I must apologise as I did no
 **Q: What software does the Raspberry Pi Run?**
 A: https://retropie.org.uk/ - A system specifically design for emulators.
 
-**Q: How long is take to boot up?*
+**Q: How long is take to boot up?**
 A: I measured this at around 1 minute 15 seconds.
 
 **Q: Can you build me one? Name a price!**
