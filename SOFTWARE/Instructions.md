@@ -46,7 +46,8 @@ f.	Close FT_Prog, Remove and reinsert the GBA link cable from the USB port. Conf
 8.	Select **Serial** connection type. Type in your COM Port number and Speed of 115200. Hit Open.
 9.	Now power on your GBA using the power switch. You should be presented with a message *’Uncompressing Linux… done, booting the kernel.’*. Wait for the login prompt to appear. This can take about a 1 minute or more.
 10.	Default login is *pi* and password is *raspberry*
-11.	Now you can issue commands to the Raspberry Pi Zero over the command line!
+11.	After firt login, a First boot script will run, and reboot the system once again.
+12.	Now you can issue commands to the Raspberry Pi Zero over the command line!
 
 ### 3. Configuration of System.
 1.	Issue the following commands one at a time:
@@ -66,7 +67,7 @@ a. Disable overscan
 b. Force 3.5mm audio (headphone)  
 c. Enable SPI  
 
-2.	To set the programs to begin at startup edit /etc/rc.local
+3.	To set the programs to begin at startup edit /etc/rc.local
 > sudo nano /etc/rc.local
 
 Add the following to the end of the file but **before** exit 0.
@@ -74,21 +75,21 @@ Add the following to the end of the file but **before** exit 0.
 > retrogame &  
 > gpio_alt -p 18 -f 5
 
-3.	Setup virtual keyboard by the following:
+4.	Setup virtual keyboard by the following:
 > sudo nano /etc/udev/rules.d/10-gbaemu.rules
 
 and add the following to this file:
 
 > SUBSYSTEM=="input", ATTRS{name}=="gbaemu", ENV{ID_INPUT_KEYBOARD}="1"
 
-4.	Increase the font size in EmulationStation for readability by the following:
+5.	Increase the font size in EmulationStation for readability by the following:
 
 > sudo nano /etc/emulationstation/themes/carbon/carbon.xml
 
 Then scroll down to the ‘gamelist’ section and change any occurance of fontSize to 0.05.
 
-5.	Reboot and you should have everything up and running!
-6.	In EmulationStation goto the ‘RetroPie’ menu item and explore all the options available to tweak how you like it.
+6.	Reboot and you should have everything up and running!
+7.	In EmulationStation goto the ‘RetroPie’ menu item and explore all the options available to tweak how you like it.
 
 ### Get ROMS onto it
 1.	The easiest way to do this is to  get a microUSB to USB adapter and connect a wifi dongle to the Raspberry Pi USB port. To setup wifi, do the following in the serial console:
