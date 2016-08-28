@@ -49,3 +49,12 @@ Again, this is a first prototype. I have observed the following issues:
 
 4. Probably more. This has not been extensively tested.
 
+## Controls
+So if you managed to get everything up and running. Congrats! If you followed the software setup guide it has the following key combos setup:
+1. SELECT+START = Exit current rom
+2. SELECT+A = Save current state
+3. SELECT+B = Load current state
+4. SELECT+RIGHT SHOULDER = High speed
+5. SELECT+LEFT SHOULDER = Rewind gameplay around 3-4 seconds
+6. SELECT+LEFT/RIGHT = INCREASE/DECREASE Screen brightness
+
