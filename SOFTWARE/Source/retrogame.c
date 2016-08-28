@@ -1,6 +1,7 @@
 /*
 This Program has been modified by Ryzee119 for use with a GBA mod design by me.
 https://github.com/Ryzee119/GBA_Emulator-by-Ryzee119-
+http://imgur.com/a/kjFmS
 
 All credits to ADAFRUIT for developing this.
 Originally pulled from https://github.com/adafruit/Adafruit-Retrogame
