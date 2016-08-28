@@ -51,6 +51,7 @@ Again, this is a first prototype. I have observed the following issues:
 
 ## Controls
 So if you managed to get everything up and running. Congrats! If you followed the software setup guide it has the following key combos setup:
+
 1. SELECT+START = Exit current rom
 2. SELECT+A = Save current state
 3. SELECT+B = Load current state
